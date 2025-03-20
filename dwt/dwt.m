@@ -5,7 +5,7 @@ clear all;
 close all;
 
 % Read the image
-img = imread('https://img.itch.zone/aW1nLzU5MzA1MjEucG5n/original/P4Vv%2Bh.png');
+img = imread('image1.jpg');
 
 % Convert to grayscale if it's an RGB image
 if size(img, 3) == 3
