@@ -3,13 +3,13 @@
 clc; clear all; close all;
 
 % Load Original Image
-img = imread('C:\Users\penja\Downloads\website.jpg');
+img = imread('image2.jpg');
 if size(img,3) == 3
     img = rgb2gray(img);
 end
 
 % Load Watermark Image (Must be smaller than original)
-watermark = imread('C:\Users\penja\Downloads\GettyImages-2181662163.jpg');
+watermark = imread('image1.jpg');
 if size(watermark,3) == 3
     watermark = rgb2gray(watermark);
 end
